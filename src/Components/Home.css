@@ -1,0 +1,55 @@
+/* Home.css */
+
+.hero-image {
+    width: 100%; /* Ajuste a largura conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+  }
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Ajuste a altura conforme necessário */
+    background-color: #ffffff; /* Ajuste a cor de fundo conforme necessário */
+    width: 100%; /* Ajuste a largura conforme necessário */
+    max-width: 2000px; /* Ajuste a largura máxima conforme necessário */
+    margin: 0 auto; /* Centraliza a seção no meio da página */
+    /* ...resto do código... */
+    background-position: center; /* Centraliza a imagem de fundo */
+  }
+  
+  .hero h1 {
+    font-size: 1.5em; /* Ajuste o tamanho da fonte conforme necessário */
+    color: #720101; /* Ajuste a cor do texto conforme necessário */
+    margin-bottom: 1em; /* Ajuste a margem conforme necessário */
+  }
+  
+  .btn-group {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Alinha verticalmente */
+    height: 18%; /* Toma toda a altura do container */
+  }
+  
+  .btn-filled-dark {
+    background-color: #7B0000; /* Ajuste a cor de fundo conforme necessário */
+    color: #fff; /* Ajuste a cor do texto conforme necessário */
+    padding: 30px 60px; /* Aumenta o preenchimento para tornar o botão maior */
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    padding: 40px 40px; /* Aumenta o preenchimento para tornar o botão maior */
+    font-size: 24px; /* Aumenta o tamanho da fonte */
+  }
+  
+  .btn-filled-dark:hover {
+    background-color: #555; /* Ajuste a cor de fundo conforme necessário */
+    color: white;
+  }
+  
