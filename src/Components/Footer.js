@@ -6,7 +6,7 @@ function Footer() {
     return (
         <footer>
             <div className="footer-content">
-                <p>© 2024 Seu Nome. Todos os direitos reservados.</p>
+                <p>© 2024 LUPANAR.WEB. Todos os direitos reservados.</p>
                 <ul className="socials">
                     <li><a href="#facebook"><FaFacebook /></a></li>
                     <li><a href="#twitter"><FaTwitter /></a></li>

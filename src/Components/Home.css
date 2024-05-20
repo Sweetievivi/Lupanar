@@ -33,19 +33,22 @@
   }
   
   .btn-filled-dark {
-    background-color: #7B0000; /* Ajuste a cor de fundo conforme necessário */
+    background-color: #a00909; /* Ajuste a cor de fundo conforme necessário */
     color: #fff; /* Ajuste a cor do texto conforme necessário */
-    padding: 30px 60px; /* Aumenta o preenchimento para tornar o botão maior */
+    padding: 10px 20px; /* Aumenta o preenchimento para tornar o botão maior */
     border: none;
     cursor: pointer;
     text-align: center;
     text-decoration: center;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
+    margin: 8px 10px;
     transition-duration: 0.4s;
-    padding: 40px 40px; /* Aumenta o preenchimento para tornar o botão maior */
-    font-size: 24px; /* Aumenta o tamanho da fonte */
+    padding: 10px 20px; /* Aumenta o preenchimento para tornar o botão maior */
+    font-size: 14px; /* Aumenta o tamanho da fonte */
+    border-radius: 15%;
+    padding: 24px 40px;
+    font-size: 23px;
   }
   
   .btn-filled-dark:hover {

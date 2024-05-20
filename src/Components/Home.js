@@ -12,7 +12,18 @@ const Home = () => {
           <span className="material-symbols-outlined">Conecte-se</span>
         </button>
       </div>
+      <div className="home-container">
+      <div className="text-container">
+        <h2>Quem somos nós?</h2>
+        <p>Clique para saber mais!</p>
+        <button onClick={() => { /* Adicione a função de clique aqui */ }}>Clique aqui!</button>
+      </div>
+      <div className="image-container">
+        <img src="./" alt="Imagem" />
+      </div>
+    </div>
     </section>
+    
   );
 };
 

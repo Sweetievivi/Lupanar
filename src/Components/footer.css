@@ -1,11 +1,15 @@
 /* footer.css */
 
 footer {
-    background-color: #f8f9fa;
+    background-color: #a80a0a;
+    color: #ffffff;
+    display: flex;
+    height: 100px;
     padding: 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 .footer-content p {
@@ -20,10 +24,11 @@ footer {
 
 .socials a {
     text-decoration: none;
-    color: #333;
+    color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: -5px;
     width: 30px;
     height: 30px;
 }

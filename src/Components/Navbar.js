@@ -12,7 +12,7 @@ function Navbar() {
                 <li><a href="#suites">Suítes</a></li>
                 <li><a href="#aperitivos">Aperitivos e Bebidas</a></li>
                 <li><a href="#sobre">Saiba mais</a></li>
-                <li><a href="#login">Faça Login</a></li>
+                <li><a href="#funcionarios">Funcionarios</a></li>
             </ul>
             <div className="btn-group">
                 <button className="btn-outline-dark btn-hover-color"><span className="material-symbols-outlined">Faça o seu login</span></button>
